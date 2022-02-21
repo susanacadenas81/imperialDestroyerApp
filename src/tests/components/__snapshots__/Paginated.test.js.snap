@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paginated tests should display correctly 1`] = `
+<ul
+  className="pagination-ul"
+>
+  <li
+    className="pagination-li"
+    key="-1"
+    onClick={[Function]}
+    value={-1}
+  >
+    previous
+  </li>
+  <li
+    className="pagination-li"
+    key="1"
+    onClick={[Function]}
+    value={1}
+  >
+    1
+  </li>
+  <li
+    className="pagination-li"
+    key="2"
+    onClick={[Function]}
+    value={2}
+  >
+    2
+  </li>
+  <li
+    className="pagination-li"
+    key="-2"
+    onClick={[Function]}
+    value={-2}
+  >
+    next
+  </li>
+</ul>
+`;

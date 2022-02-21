@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests StarshipList component Should display correctly 1`] = `
+<Fragment>
+  <div
+    className="list-wrapper"
+  />
+  <Paginated
+    count={0}
+    data={Array []}
+    loading={true}
+    onChangePage={[Function]}
+    sortBy={
+      Object {
+        "sortBy": "",
+      }
+    }
+  />
+</Fragment>
+`;
+
+exports[`Tests StarshipList component Should show items when data are loaded 1`] = `
+<Fragment>
+  <div
+    className="list-wrapper"
+  />
+  <Paginated
+    count={2}
+    data={
+      Array [
+        Object {
+          "MGLT": "60",
+          "cargo_capacity": "3000000",
+          "consumables": "1 year",
+          "cost_in_credits": "3500000",
+          "created": "2014-12-10T14:20:33.369000Z",
+          "crew": "30-165",
+          "edited": "2014-12-20T21:23:49.867000Z",
+          "films": Array [
+            "https://swapi.py4e.com/api/films/1/",
+            "https://swapi.py4e.com/api/films/3/",
+            "https://swapi.py4e.com/api/films/6/",
+          ],
+          "hyperdrive_rating": "2.0",
+          "length": "150",
+          "manufacturer": "Corellian Engineering Corporation",
+          "max_atmosphering_speed": "950",
+          "model": "CR90 corvette",
+          "name": "CR90 corvette",
+          "passengers": "600",
+          "pilots": Array [],
+          "starship_class": "corvette",
+          "url": "https://swapi.py4e.com/api/starships/2/",
+        },
+        Object {
+          "MGLT": "60",
+          "cargo_capacity": "36000000",
+          "consumables": "2 years",
+          "cost_in_credits": "150000000",
+          "created": "2014-12-10T15:08:19.848000Z",
+          "crew": "47,060",
+          "edited": "2014-12-20T21:23:49.870000Z",
+          "films": Array [
+            "https://swapi.py4e.com/api/films/1/",
+            "https://swapi.py4e.com/api/films/2/",
+            "https://swapi.py4e.com/api/films/3/",
+          ],
+          "hyperdrive_rating": "2.0",
+          "length": "1,600",
+          "manufacturer": "Kuat Drive Yards",
+          "max_atmosphering_speed": "975",
+          "model": "Imperial I-class Star Destroyer",
+          "name": "Star Destroyer",
+          "passengers": "n/a",
+          "pilots": Array [],
+          "starship_class": "Star Destroyer",
+          "url": "https://swapi.py4e.com/api/starships/3/",
+        },
+      ]
+    }
+    loading={false}
+    onChangePage={[Function]}
+    sortBy={
+      Object {
+        "sortBy": "",
+      }
+    }
+  />
+</Fragment>
+`;

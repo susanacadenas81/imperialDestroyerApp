@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Starjout';
+    src: url('/public/assets/fonts/Starjout.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+header {
+    background-color: black;
+    display: flex;
+}
+
+.title {
+    font-family: 'Starjout';
+    font-size: 2em;
+    color: yellow !important;
+    width: 100%;
+    padding: .35em;
+}
+
+.log-in-icon-wrapper {
+    display: flex;
+    align-items: center;
+    padding-right: 2em;
+}
+
+.log-in-icon-wrapper:hover {
+    cursor: pointer;
+}
+
+.log-in-icon:hover {
+    color: yellow !important;
+}
+
+.log-in-icon {
+    color: rgb(185, 185, 185);
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.title {
+    color: yellow;
+    padding-left: .3em;
+}
+
+.deathstar-icon-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+}
+
+.deathstar-icon {
+    color: rgb(185, 185, 185);
+    width: 2em;
+    height: 2em;
+}
+
+@media (max-width:938px) {
+    header {
+        width: 100%;
+    }
+    body {
+        width: 189vw;
+    }
+}

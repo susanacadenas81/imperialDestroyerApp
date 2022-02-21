@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests <PlanetCard /> should display correctly 1`] = `
+<div
+  className="planet-card"
+>
+  <div
+    className="image-wrapper"
+  >
+    <img
+      alt="/assets/planets/tatooine.png"
+      className="planet-image"
+      onError={[Function]}
+      src="/assets/planets/tatooine.png"
+    />
+  </div>
+  <div
+    className="planet-data-wrapper"
+  >
+    <b>
+       
+      Tatooine
+       
+    </b>
+    <div>
+       
+      arid
+       
+    </div>
+    <div>
+       
+      Population of 200k
+       
+    </div>
+  </div>
+</div>
+`;

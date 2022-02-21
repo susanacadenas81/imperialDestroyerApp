@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests StarShipsScreen should display correctly 1`] = `
+<div
+  className="planet-screen-wrapper"
+>
+  <div
+    className="header-planet-screen"
+  >
+    <h1
+      className="section-title"
+    >
+      <i>
+        <FaGlobe
+          className="title-icon"
+        />
+      </i>
+      Planets
+    </h1>
+  </div>
+  <PlanetList />
+</div>
+`;

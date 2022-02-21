@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests <StarshipCard /> should display correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="data-wrapper"
+  >
+    <div
+      className="header-card"
+    >
+      <div
+        className="title-card"
+      >
+         
+        CR90 corvette
+         
+      </div>
+    </div>
+    <div
+      className="starship-image-wrapper"
+    >
+      <img
+        className="starship-image"
+        onError={[Function]}
+        src="/assets/starships/cr90corvette.png"
+      />
+    </div>
+    <div
+      className="data-card"
+    >
+      <p>
+        <b>
+          Cargo capacity
+        </b>
+        : 
+        3M
+      </p>
+      <p>
+        <b>
+          MGLT
+        </b>
+        : 
+        60
+      </p>
+      <p>
+        <b>
+          Consumables
+        </b>
+        : 
+        1 year
+      </p>
+      <p>
+        <b>
+          Cost in credits
+        </b>
+        : 
+        3.5M
+      </p>
+      <p>
+        <b>
+          Crew
+        </b>
+        : 
+        30-165
+      </p>
+      <p>
+        <b>
+          Hyperdriver Rating
+        </b>
+        : 
+        2.0
+      </p>
+      <p>
+        <b>
+          Manufacturer
+        </b>
+        : 
+        Corellian Engineering Corporation
+      </p>
+    </div>
+  </div>
+</div>
+`;

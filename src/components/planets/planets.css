@@ -1,0 +1,93 @@
+.planet-list-wrapper {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.planet-card{
+    width: 25em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(95, 95, 85);
+    margin: .5em;
+    border-radius: 3px;
+    background-color: lightgray;
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: black !important;
+    border-bottom: 3px solid rgb(95, 95, 85) !important;
+}
+
+.planet-image {
+    height: 15em;
+    width: 14.5em;
+}
+
+.planet-screen-wrapper{
+    display: flex;
+    max-width: 97vw;
+    flex-wrap: wrap;
+    padding-left: .5em;
+}
+
+.title-icon {
+    width: .79em !important;
+    height: .79em !important;
+    margin-right: .2em;
+    padding-right: .2em;
+    padding-left: .2em;
+    color: #333;
+}
+
+.planet-data-wrapper {
+    margin-left: .4em;
+    padding-top: .1em;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+}
+
+.header-planet-screen {
+    padding: .3em;
+    margin-left: .4em;
+    width: 100%;
+    font-size: .7em;
+    font-family: 'Starjedi';
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    size: 1.5em;
+}
+
+@media (max-width: 850px) {
+    .planet-card {
+        height: inherit !important;
+        width: inherit !important;
+        max-width: 25em;
+    }
+    hr {
+        display: none;
+    }
+    .planet-screen-wrapper {
+        max-width: inherit;
+        width: 120vw;
+        justify-content: inherit;
+
+    }
+    .planet-list-wrapper {
+        width: 100%;
+        justify-content: center;
+        margin-left: 2em;
+    }
+}

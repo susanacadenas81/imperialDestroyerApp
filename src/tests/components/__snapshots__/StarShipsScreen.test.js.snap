@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests StarShipsScreen should display correctly 1`] = `
+<div
+  className="screen-wrapper"
+>
+  <div
+    className="header-screen"
+  >
+    <h1
+      className="center"
+    >
+      <i>
+        <FaRocket
+          className="title-icon"
+        />
+      </i>
+      Starships
+    </h1>
+    <div
+      className="dropdown"
+    >
+      <i
+        className="sort-icon"
+      >
+        <FaSortAmountDownAlt />
+      </i>
+      <Dropdown
+        baseClassName="Dropdown"
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "Capacity",
+              "value": "cargo_capacity",
+            },
+            Object {
+              "label": "Crew",
+              "value": "crew",
+            },
+          ]
+        }
+        placeholder="Sort By"
+      />
+    </div>
+  </div>
+  <StarshipList
+    sortBy=""
+  />
+</div>
+`;

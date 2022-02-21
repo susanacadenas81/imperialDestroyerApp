@@ -1,0 +1,132 @@
+.list-wrapper {
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 25em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: .5em;
+    border-radius: 3px;
+    background-color: lightgray;
+}
+
+.starship-image-wrapper {
+    display: flex;
+    justify-content: center;
+    border: 1.2px solid rgb(184, 184, 184);
+    width: 8em;
+    float: left;
+    border-radius: 2px;
+    margin-top: .2em;
+    margin-left: .2em;
+    margin-right: .6em;
+    background-color: black;
+}
+
+.starship-image {
+    height: 8em;
+    width: 7em;
+    background-color: black;
+}
+
+.screen-wrapper{
+    display: flex;
+    max-width: 97vw;
+    flex-wrap: wrap;
+    margin-left: .5em;
+    justify-content: center;
+}
+
+.title-icon {    
+    width: .85em !important;
+    height: .85em !important;
+    margin-right: .2em;
+    padding-right: .2em;
+    padding-left: .2em;
+    color: #333; 
+}
+
+.data-card {
+    font-size: 1.2em;
+    
+}
+
+.starships-section-title {
+    display: flex;
+    text-align: center;
+    font-size: 2.1em;
+    color: rgb(0, 0, 0);
+}
+
+.header-card {
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid grey;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.title-card {
+    font-family: 'Starjedi';
+    color: rgba(255, 255, 0, 0.945);
+    padding: 1em;
+}
+
+.data-card p {
+    margin: .1em;
+    margin-left: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.header-screen {
+    padding: .3em;
+    margin-left: .4em;
+    width: 100%;
+    max-width: 90.2vw;
+    font-size: 1em;
+    font-family: 'Starjedi';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    margin-right: 5em;
+}
+
+.sort-icon {
+    margin-right: .5em;
+}
+
+hr {
+    margin-left: 1.5em;
+    size: 1.5em;
+}
+
+@media (max-width: 850px) {
+    .card {
+        height: inherit !important;
+        width: inherit !important;
+        max-width: 25em;
+    }
+    hr {
+        display: none;
+    }
+    .screen-wrapper {
+        max-width: inherit;
+        width: 120vw;
+        justify-content: inherit;
+
+    }
+    .list-wrapper {
+        width: 100%;
+        justify-content: center;
+        margin-left: 2em;
+    }
+}

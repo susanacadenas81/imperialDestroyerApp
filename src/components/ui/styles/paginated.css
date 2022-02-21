@@ -1,0 +1,26 @@
+.active {
+    background-color: #b0e3ff;
+    color: black !important;
+}
+
+.pagination-ul {
+    display: flex;
+    justify-content: center;
+    min-width: 89%;
+    height: 3em;
+}
+
+.pagination-li {
+    list-style: none;
+    min-width: 2em;
+    text-align: center;
+    padding: .5em;
+    margin: .2em;
+    border-radius: 5px;
+
+}
+
+.pagination-li:hover {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
